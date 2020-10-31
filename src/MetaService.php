@@ -2,15 +2,15 @@
 
 namespace EdgarMendozaTech\Meta;
 
-use EdgarMendozaTech\MediaResource\MediaResourceService;
+use EdgarMendozaTech\MediaResource\MediaResourceServiceDefaultImpl;
 
 class MetaService
 {
     private $mediaResourceService;
 
-    public function __construct(MediaResourceService $mediaResourceService)
+    public function __construct()
     {
-        $this->mediaResourceService = $mediaResourceService;
+        $this->mediaResourceService = new MediaResourceServiceDefaultImpl();
     }
 
     public function store(array $data): Meta
