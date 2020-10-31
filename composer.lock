@@ -1,0 +1,79 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "b6716efa5e95d13712045e17ab3d5d71",
+    "packages": [
+        {
+            "name": "edgarmendozatech/mediaresource",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/edgarmendozatech/mediaresource.git",
+                "reference": "bb007f7177c1642c97304a669e8b51a66d71ef9a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/edgarmendozatech/mediaresource/zipball/bb007f7177c1642c97304a669e8b51a66d71ef9a",
+                "reference": "bb007f7177c1642c97304a669e8b51a66d71ef9a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "suggest": {
+                "intervention/image": "Image is required when handling images",
+                "james-heinrich/getid3": "GetID3 is required when handling videos",
+                "tinify/tinify": "Tinify is required to compress images using tinyPNG."
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "EdgarMendozaTech\\MediaResource\\MediaResourceServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "EdgarMendozaTech\\MediaResource\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Edgar Mendoza",
+                    "email": "edgar16nm@gmail.com"
+                }
+            ],
+            "description": "Handle media resources",
+            "keywords": [
+                "image",
+                "thumbnail",
+                "upload",
+                "video"
+            ],
+            "support": {
+                "issues": "https://github.com/edgarmendozatech/mediaresource/issues",
+                "source": "https://github.com/edgarmendozatech/mediaresource/tree/v1.0"
+            },
+            "time": "2020-10-31T06:29:19+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.4.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

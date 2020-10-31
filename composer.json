@@ -3,6 +3,7 @@
     "description": "Meta",
     "type": "library",
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Edgar Mendoza",
@@ -10,7 +11,19 @@
         }
     ],
     "require": {
-        "edgarmendozatech/mediaresource": "9999999-dev"
+        "php": ">=5.4.0",
+        "edgarmendozatech/mediaresource": "^1.0"
     },
-    "minimum-stability": "dev"
+    "autoload": {
+        "psr-4": {
+            "EdgarMendozaTech\\Meta\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EdgarMendozaTech\\Meta\\MetaServiceProvider"
+            ]
+        }
+    }
 }

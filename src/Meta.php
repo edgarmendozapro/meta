@@ -3,6 +3,7 @@
 namespace EdgarMendozaTech\Meta;
 
 use Illuminate\Database\Eloquent\Model;
+use EdgarMendozaTech\MediaResource\MediaResource;
 
 class Meta extends Model
 {
