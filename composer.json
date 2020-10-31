@@ -1,0 +1,16 @@
+{
+    "name": "edgarmendozatech/meta",
+    "description": "Meta",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Edgar Mendoza",
+            "email": "edgar16nm@gmail.com"
+        }
+    ],
+    "require": {
+        "edgarmendozatech/mediaresource": "9999999-dev"
+    },
+    "minimum-stability": "dev"
+}
